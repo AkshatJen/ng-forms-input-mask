@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AngularFormsInputMasksModule } from 'angular-forms-input-masks';
+import { AngularFormsInputMasksModule } from '../../projects/angular-forms-input-masks/src/lib/angular-forms-input-masks.module';
 import { AppComponent } from './app.component';
 import { DemoCardComponent } from './components/demo-card.component';
 
