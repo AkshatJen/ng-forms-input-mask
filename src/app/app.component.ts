@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormControl } from '@angular/forms';
 
 import { demoAppAnimations } from './utils/app.animations';
 
@@ -11,18 +11,18 @@ import { demoAppAnimations } from './utils/app.animations';
 })
 export class AppComponent {
 
-  demoFormGroup = new FormGroup({
-    validateMask: new FormControl(null),
-    simpleMask: new FormControl(null),
-    multiMask: new FormControl(null),
-    unmaskedMask: new FormControl(null),
+  demoFormGroup = new UntypedFormGroup({
+    validateMask: new UntypedFormControl(null),
+    simpleMask: new UntypedFormControl(null),
+    multiMask: new UntypedFormControl(null),
+    unmaskedMask: new UntypedFormControl(null),
 
-    simpleCurrency: new FormControl(null),
-    customCurrency: new FormControl(null),
-    clearCurrency: new FormControl(null),
-    custom2Currency: new FormControl(null),
+    simpleCurrency: new UntypedFormControl(null),
+    customCurrency: new UntypedFormControl(null),
+    clearCurrency: new UntypedFormControl(null),
+    custom2Currency: new UntypedFormControl(null),
 
-    wrappedMask: new FormControl(null),
+    wrappedMask: new UntypedFormControl(null),
   });
 
 }
